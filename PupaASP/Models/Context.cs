@@ -18,7 +18,7 @@ namespace PupaASP.Models
         public DbSet<School> Schools { get; set; }
         public DbSet<Shield> Shields { get; set; }
         public DbSet<Skill> Skills { get; set; }
-        public DbSet<Skill_Ability> Skill_Abilities { get; set; }
+        public DbSet<SkillAbility> SkillAbilities { get; set; }
         public DbSet<Spell> Spells { get; set; }
         public DbSet<Weapon> Weapons { get; set; }
         public Context(DbContextOptions<Context> options)

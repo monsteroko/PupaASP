@@ -10,6 +10,6 @@ namespace PupaASP.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int Weight_Grams { get; set; }
+        public int WeightGrams { get; set; }
     }
 }

@@ -9,9 +9,10 @@ namespace PupaASP.Models
     {
         public int Id { get; set; }
         public int AbilityId { get; set; }
+        public Ability Ability { get; set; }
         public int AP { get; set; }
         public int PP { get; set; }
-        public int[] ItemId { get; set; }
+        public ICollection<Item> Items { get; set; }
         public double Radius { get; set; }
         public double Area { get; set; }
     }

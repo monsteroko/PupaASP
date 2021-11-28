@@ -9,6 +9,7 @@ namespace PupaASP.Models
     {
         public int Id { get; set; }
         public int SpellId { get; set; }
+        public Spell Spell { get; set; }
         public int Level { get; set; }
         public int Number { get; set; }
         public string Effect { get; set; }
